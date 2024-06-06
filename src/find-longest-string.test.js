@@ -10,5 +10,4 @@ test("findLongestString returns the earlier string in cases of joint longest str
   expect(findLongestString(["brave", "dance"])).toBe("brave");
   expect(findLongestString(["america", "mexico"])).toBe("america");
   expect(findLongestString(["pitbull", "toenail"])).toBe("pitbull");
-
 });
